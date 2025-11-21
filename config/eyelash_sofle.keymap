@@ -114,11 +114,11 @@
 
         layer_1 {
             bindings = <
-&trans  &trans           &trans          &trans           &trans           &trans             &none  &trans           &trans           &trans    &trans        &trans     &trans
-&trans  &trans           &trans          &trans           &trans           &trans             &none  &trans           &trans           &trans    &trans        &trans     &trans
-&trans  &trans           &trans          &trans           &trans           &trans             &none  &trans           &kp LEFT         &kp DOWN  &kp UP_ARROW  &kp RIGHT  &trans
-&trans  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &none  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &trans    &trans        &trans     &trans
-&none   &trans           &trans          &trans           &trans           &trans             &none  &trans           &trans           &trans    &trans        &trans
+&trans  &trans           &trans          &trans           &trans           &trans             &none  &trans           &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_MUTE  &trans  &trans
+&trans  &trans           &trans          &trans           &trans           &trans             &none  &trans           &trans             &trans           &trans      &trans  &trans
+&trans  &trans           &trans          &trans           &trans           &trans             &none  &kp LEFT_ARROW   &kp DOWN_ARROW     &kp UP_ARROW     &kp RIGHT   &trans  &trans
+&trans  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &none  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD    &trans           &trans      &trans  &trans
+&none   &trans           &trans          &trans           &trans           &trans             &none  &trans           &trans             &trans           &trans      &trans
             >;
 
             display-name = "layer1";
